@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: #856f6f;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.5rem ;
+}
+
+.container {
+    background: linear-gradient(to right, #000, #585353) ;
+    max-width: 70%;
+    margin: 0 auto;
+    margin-top: 10rem;
+    border-radius: 2rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+@media(min-width: 280px) and (max-width: 820px) {
+    .container {
+        background: linear-gradient(to right, #000, #585353) ;
+        max-width: 100% ;
+        margin: 0 auto;
+        margin-top: 0.1rem;
+        border-radius: 2rem;
+        color: aliceblue;
+        text-align: center;
+    }
+}
+
+input {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #696262;
+}
+
+.btn-acao {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    background-color: rgb(180, 0, 0);
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.btn-acao:hover {
+    border-bottom: solid #f5eded ;
+}
+
+form {
+    text-align: center;
+}
+
+.img-app {
+    margin-top: 2rem;
+    width: 20%;
+    height: 10%;
+
+}
+
+@media(min-width: 280px) and (max-width: 820px) {
+    .img-app {
+        width: 30%;
+        height: 10%;
+    
+    }
+}
+
+.conteudo {
+    background-color: #6b6b6b;
+    padding: 1.5rem;
+    color: #000;
+    text-align: justify;
+    font-size: 1.6rem;
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.grid-corpo {
+    text-align: center;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 400px 1fr;
+}
+
+@media(min-width: 280px) and (max-width: 820px) {
+    .grid-corpo {
+        text-align: center;
+        display: grid;
+        grid-gap: 0.1rem;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+}
+
+.imagem-corpo {
+    width: 95%;
+    height: 85%;
+    border-radius: 1rem;
+}
+
+.descricao-corpo {
+    color: #fff;
+    text-align: justify;
+}
+
+a {
+
+    text-decoration: none;
+    color:#000;
+}
+
+#btn-avancar {
+    background-color: #76e24b ;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-left: 24rem;
+}
+
