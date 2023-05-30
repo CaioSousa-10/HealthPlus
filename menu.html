@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="css/style3.css" type="text/css" >
+    <link rel="stylesheet" href="css/style3.css" type="text/css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Health Plus</title>
 </head>
@@ -13,22 +13,72 @@
 
     <header>
         <nav>
-            <a href="#">FORMULARIO</a>
+            <a href="#">LOGIN</a>
+            <a href="">SAIR</a>
         </nav>
         <br>
         <h2>Olá Usúario</h2>
     </header>
-    
+    <br>
+
+    <section class="container">
+
+        <h2>PESQUISA DE CAMPO</h2>
+        <span id="texto-obs">
+
+            <p>
+                Por favor Preencha o formulário abaixo para conhecermos melhor você.
+            </p>
+            <br>
+
+            <span class="formulario">
+                <form action="">
+                    <label for="nome">NOME</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite aqui o seu nome">
+                    <br>
+
+                    <label for="email">EMAIL</label><br>
+                    <input type="email" id="email" name="email" placeholder="Digite aqui o seu email">
+                    <br>
+
+                    <label for="">HISTÓRICO DE DOENÇA NA FAMÍLIA</label><br>
+                    <label for="doenca">SIM</label>
+                    <input type="checkbox" id="doenca" name="doenca">
+
+                    <label for="doenca">NÃO</label>
+                    <input type="checkbox" id="doenca" name="doenca"><br>
+                    <textarea name="historico-doenca" id="historico-doenca" cols="30" rows="5"></textarea>
+                    <br>
+
+                    <label for="acompanhamento-medico">ACOMPANHAMENTO PSIQUIATRICO?</label><br>
+                    <input type="checkbox" name="acompanhamento-medico" id="acompanhamento-medico">
+                    <label for="acompanhamento-medico">SIM</label>
+                    <input type="checkbox" name="acompanhamento-medico" id="acompanhamento-medico">
+                    <label for="acompanhamento-medico">NÃO</label>
+                    <br>
+
+                    <label for="trabalho">COM O QUE TRABALHAVA?</label><br>
+                    <input type="text" name="trabalho" id="trabalho" placeholder="Digite aqui seu trabalho">
+                    <br>
+                    <label for="familia">QUANTOS MORAM NA CASA COM VOCÊ?</label>
+                    <input type="number" name="familia" id="familia">
+                </form>
+            </span>
+
+        </span>
+
+    </section>
+
 
     <footer>
-        <div id="menu-corpo" >
+        <div id="menu-corpo">
             <div>
-                <a href=""><img src="icon/cardiogram.png" alt="saude" class="icones-menu" ></a>
-                <figcaption>Medico</figcaption>
+                <a href=""><img src="icon/cardiogram.png" alt="saude" class="icones-menu"></a>
+                <figcaption>Medicos</figcaption>
             </div>
             <div>
                 <a href=""><img src="icon/open-book.png" alt="estudo" class="icones-menu"></a>
-                <figcaption>Estudo</figcaption>
+                <figcaption>Cursos</figcaption>
             </div>
             <div>
                 <a href=""><img src="icon/exercise.png" alt="meditação" class="icones-menu"></a>
@@ -41,4 +91,5 @@
         </div>
     </footer>
 </body>
+
 </html>
